@@ -1,7 +1,7 @@
 import mongoose, { model, Schema } from "mongoose";
 
 mongoose.connect(
-  "mongodb+srv://jay13nemade:Wsd6lzf415BzVSo0@cluster0.aoo4q.mongodb.net/"
+  "DATABASE_URL"
 );
 
 const UserSchema = new Schema({
